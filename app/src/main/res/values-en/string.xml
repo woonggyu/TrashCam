@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrashCam</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+    </string>
+
+    <string name="camera_permission_rationale">Camera permission is required to use this feature.</string>
+
+    <string name="tip_default">Tip: Use a tumbler instead of disposable cups!</string>
+    <string name="camera_info_text">Try taking a picture of the trash using the camera!</string>
+    <string name="statistics_button_text">Statistics</string>
+    <string name="alarm_settings_button_text">Alarm Settings</string>
+    <string name="campaign_text">Join recycling efforts and protect endangered animals!</string>
+
+    <string name="image_slot_1">Image Slot 1</string>
+    <string name="image_slot_2">Image Slot 2</string>
+    <string name="image_slot_3">Image Slot 3</string>
+
+    <string name="alarm_settings_title">Recycling Alarm Settings</string>
+    <string name="day_select_label">Select day(s) for notification</string>
+    <string name="chip_mon">Mon</string>
+    <string name="chip_tue">Tue</string>
+    <string name="chip_wed">Wed</string>
+    <string name="chip_thu">Thu</string>
+    <string name="chip_fri">Fri</string>
+    <string name="chip_sat">Sat</string>
+    <string name="chip_sun">Sun</string>
+    <string name="time_select_label">Select notification time</string>
+    <string name="delete_alarm_button_text">Delete Set Alarm</string>
+    <string name="save_alarm_button_text">Save Alarm</string>
+    <string name="alarm_set_success_message">Alarm set for %1$s %2$s!</string>
+    <string name="select_day_warning">Please select at least one day for the notification.</string>
+    <string name="alarm_deleted_message">All set alarms have been deleted.</string>
+
+    <string-array name="recycling_tips">
+        <item>Did you know that designated trash bags differ by region?</item>
+        <item>Try using a shopping bag instead of plastic bags when shopping.</item>
+        <item>Make it a habit to use a tumbler instead of disposable cups.</item>
+        <item>Wash vinyl items cleanly, dry them, and dispose of them in a transparent bag.</item>
+        <item>Paper or styrofoam stained with food is general waste.</item>
+        <item>Proper recycling increases the recycling rate of resources.</item>
+        <item>Remove labels from clear PET bottles and crush them before disposal.</item>
+        <item>Make sure to remove tape or staples from paper items.</item>
+        <item>Wrap broken glass or ceramics in newspaper and dispose of them in a standard trash bag.</item>
+    </string-array>
+
+    <string name="btnCapture">Capture</string>
+    <string name="btnReshoot">Reshoot</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnSave">Save</string>
+    <string name="button_details">Details</string>
+    <string name="error_no_analysis_data">No analysis data available for viewing details.</string>
+    <string name="loadingTextView">Processing...</string>
+    <string name="tvDetectionResult">Analysis Result:</string>
+    <string name="loading_analyzing">Analyzing with YOLO...</string>
+    <string name="toast_photo_deleted">Photo deleted.</string>
+    <string name="toast_db_saved">\'%1$s\' information saved to DB.</string>
+    <string name="toast_db_saved_auto">\'%1$s\'Analysis result automatically saved to DB.</string>
+    <string name="toast_no_result_to_save">No analysis result to save.</string>
+    <string name="error_file_conversion_failed">Cannot convert image file.</string>
+    <string name="error_server_analysis">Server analysis error: %1$s</string>
+    <string name="error_unknown_response">Unknown server response.</string>
+    <string name="error_server_communication">Server communication error: %1$d %2$s</string>
+    <string name="error_upload_failed">Upload failed: %1$s</string>
+    <string name="analysis_result_title">Analysis Result:</string>
+    <string name="analysis_no_result_found">No results detected.</string>
+
+    <string name="stats_title">Recycling Statistics</string>
+    <string name="top_10_title">TOP 10 Most Photographed Trash</string>
+    <string name="reset_button_text">Reset statistics</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="chart_label_garbage_type">Trash Type</string>
+    <string name="dialog_title_reset_stats">Reset Statistics</string>
+    <string name="dialog_message_reset_stats">Are you sure you want to delete all statistics records?</string>
+    <string name="dialog_button_delete">Delete</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="toast_stats_reset">Statistics have been reset.</string>
+
+    <!-- Recycling Tip Activity Strings -->
+    <string name="btnRecycleTip">Recycling Tips for PET Bottles</string>
+    <string name="category_plastic_bottle">Plastic Bottle</string>
+    <string name="instruction_plastic_bottle">1. Empty and rinse it clean.\n2. Remove the label and cap.\n3. Compress before disposal.</string>
+    <string name="disposal_plastic_bottle">Transparent PET bottle collection bin</string>
+
+    <string name="category_poly_bag">Plastic Bag</string>
+    <string name="instruction_poly_bag">1. Remove any food or stickers and wipe clean.\n2. Collect in a bag to prevent scattering.</string>
+    <string name="disposal_poly_bag">Plastic bag recycling bin</string>
+
+    <string name="category_paper">Paper</string>
+    <string name="instruction_paper">1. Keep it dry.\n2. Remove tape, plastic coating, and staples.\n3. Tie it up before disposal.</string>
+    <string name="disposal_paper">Paper recycling bin</string>
+
+    <string name="category_unknown">Unknown</string>
+    <string name="instruction_unknown">Check recycling guidelines or dispose as general waste.</string>
+    <string name="disposal_unknown">General waste bag</string>
+
+    <!-- 유트브관련 -->
+    <string name="tip_title_plastic_bottle">Plastic Bottle Tips</string>
+    <string name="tip_desc_plastic_bottle">Various ways to reuse plastic bottles. Click the thumbnail to open YouTube.</string>
+    <string name="tip_video1_plastic_bottle">Make a Flower Pot</string>
+    <string name="tip_video2_plastic_bottle">DIY Lamp Shade</string>
+    <string name="tip_video3_plastic_bottle">Plastic Bottle Storage Ideas</string>
+
+    <string name="tip_title_poly_bag">Plastic Bag Tips</string>
+    <string name="tip_desc_poly_bag">Creative ways to reuse plastic bags. Click the thumbnail to open YouTube.</string>
+    <string name="tip_video1_poly_bag">Recycle Bags into Nameplates</string>
+    <string name="tip_video2_poly_bag">Trash Bag Organization Tips</string>
+    <string name="tip_video3_poly_bag">DIY Transparent Gift Bags</string>
+
+    <string name="tip_title_paper">Paper Recycling Tips</string>
+    <string name="tip_desc_paper">Learn fun and practical ways to reuse paper.</string>
+    <string name="tip_video1_paper">Paper Bracelet Making</string>
+    <string name="tip_video2_paper">DIY Tissue Box from Shopping Bag</string>
+    <string name="tip_video3_paper">Paper Storage Box</string>
+
+    <string name="tip_title_default">General Recycling Tips</string>
+    <string name="tip_desc_default">Check out proper recycling methods.</string>
+    <string name="tip_video1_default">Do Not Recycle These!</string>
+    <string name="tip_video2_default">Reusable Recycling Items</string>
+    <string name="tip_video3_default">Sorting Confusing Waste</string>
+
+
+    <!-- Modified soju bottle button text -->
+    <string name="soju_bottle_button"> Soju Empty Bottles</string>
+    <string name="profit_report_title">Bottle Profit Report</string>
+    <string name="total_profit">%1$s won earned!</string>
+    <string name="stamp_coupon_achieved">Congrats! Coupon achieved! (%1$d/%2$d)</string>
+    <string name="stamp_remaining">Only %1$d more to next coupon! (%2$d/%3$d)</string>
+</resources>

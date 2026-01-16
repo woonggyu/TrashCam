@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">TrashCam</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        </string>
+    <string name="camera_permission_rationale">카메라 기능을 사용하려면 권한을 허용해야 합니다.</string>
+    <string name="tip_default">환경 보호 팁: 텀블러를 사용하세요!</string>
+    <string name="camera_info_text">카메라를 사용해 쓰레기 사진을 찍어보세요!</string>
+    <string name="statistics_button_text">통계</string>
+    <string name="alarm_settings_button_text">알람 설정</string>
+    <string name="campaign_text">분리수거에 동참하고, 멸종위기 동물을 지켜주세요!</string>
+    <string name="stats_title">분리수거 통계</string>
+    <string name="top_10_title">가장 많이 촬영한 쓰레기 TOP 10</string>
+    <string name="image_slot_1">Image Slot 1</string>
+    <string name="image_slot_2">Image Slot 2</string>
+    <string name="image_slot_3">Image Slot 3</string>
+
+    <!--알람 설정-->
+    <string name="alarm_settings_title">분리수거 알림 설정</string>
+    <string name="day_select_label">알림 받을 요일 선택</string>
+    <string name="chip_mon">월</string>
+    <string name="chip_tue">화</string>
+    <string name="chip_wed">수</string>
+    <string name="chip_thu">목</string>
+    <string name="chip_fri">금</string>
+    <string name="chip_sat">토</string>
+    <string name="chip_sun">일</string>
+    <string name="time_select_label">알림 시간 선택</string>
+    <string name="delete_alarm_button_text">설정된 알람 삭제</string>
+    <string name="save_alarm_button_text">알람 저장</string>
+    <string name="alarm_set_success_message">%1$s %2$s으로 알람 설정 완료!</string>
+    <string name="select_day_warning">알림을 받을 요일을 하나 이상 선택해주세요.</string>
+    <string name="alarm_deleted_message">설정된 모든 알람이 삭제되었습니다.</string>
+
+    <!--재활용팁-->
+    <string-array name="recycling_tips">
+        <item>지역마다 지정된 쓰레기 봉투가 다르다는 사실, 알고 계셨나요?</item>
+        <item>쇼핑할 때 비닐봉지 대신 장바구니를 사용해 보세요.</item>
+        <item>일회용 컵 대신 텀블러 사용을 생활화하세요.</item>
+        <item>비닐류는 깨끗이 씻어 말린 후 투명 봉투에 담아 배출해주세요.</item>
+        <item>음식물이 묻은 종이나 스티로폼은 일반 쓰레기입니다.</item>
+        <item>올바른 분리수거는 자원의 재활용률을 높입니다.</item>
+        <item>투명 페트병은 라벨을 제거하고 찌그러트려 배출합니다.</item>
+        <item>종이류에 붙은 테이프나 철심은 반드시 제거해주세요.</item>
+        <item>부서진 유리나 도자기는 신문지에 싸서 종량제 봉투에 버려주세요.</item>
+    </string-array>
+
+    <!--카메라 관련 문구-->
+    <string name="btnCapture">촬영</string>
+    <string name="btnReshoot">다시찍기</string>
+    <string name="btnDelete">삭제</string>
+    <string name="btnSave">저장</string>
+    <string name="button_details">자세히 보기</string>
+    <string name="loadingTextView">처리 중...</string>
+    <string name="tvDetectionResult">분석결과:</string>
+    <string name="error_no_analysis_data">상세 정보를 볼 분석 결과가 없습니다.</string>
+
+
+
+    <!-- ======== CameraActivity.kt (코틀린 코드) ======== -->
+    <string name="loading_analyzing">YOLO 분석 중...</string>
+    <string name="toast_photo_deleted">사진을 삭제했습니다.</string>
+
+
+    <!-- %1$s는 코드에서 전달한 변수(예: 쓰레기 이름)가 들어갈 자리입니다. -->
+    <string name="toast_db_saved">\'%1$s\' 정보가 DB에 저장되었습니다.</string>
+    <string name="toast_db_saved_auto">\'%1$s\' 정보가 자동으로 저장되었습니다. (성과 리포트로 이동)</string>
+    <string name="toast_no_result_to_save">저장할 분석 결과가 없습니다.</string>
+    <string name="error_file_conversion_failed">이미지 파일을 변환할 수 없습니다.</string>
+    <string name="error_server_analysis">서버 분석 오류: %1$s</string>
+    <string name="error_unknown_response">알 수 없는 서버 응답입니다.</string>
+
+    <!-- %1$d는 숫자(코드), %2$s는 글자(메시지)입니다. -->
+    <string name="error_server_communication">서버 통신 오류: %1$d %2$s</string>
+    <string name="error_upload_failed">업로드 실패: %1$s</string>
+    <string name="analysis_result_title">분석 결과:</string>
+    <string name="analysis_no_result_found">탐지된 결과가 없습니다.</string>
+
+    <!-- ======== StatisticsActivity (XML & Kotlin) ======== -->
+
+    <string name="back_to_home">홈으로 돌아가기</string>
+    <string name="chart_label_garbage_type">쓰레기 종류</string>
+    <string name="dialog_title_reset_stats">통계 초기화</string>
+    <string name="reset_button_text">통계 초기화</string>
+    <string name="dialog_message_reset_stats">정말로 모든 통계 기록을 삭제하시겠습니까?</string>
+    <string name="dialog_button_delete">삭제</string>
+    <string name="dialog_button_cancel">취소</string>
+    <string name="toast_stats_reset">통계가 초기화되었습니다.</string>
+
+
+    <!-- ======== RecyclingResultActivity (XML & Kotlin) ======== -->
+    <string name="btnRecycleTip">활용 방법</string>
+    <string name="category_plastic_bottle">투명 페트병</string>
+    <string name="instruction_plastic_bottle">1. 내용물을 비우고 깨끗하게 세척하세요.\n2. 라벨과 뚜껑을 제거하세요.\n3. 압축하여 배출하세요.</string>
+    <string name="disposal_plastic_bottle">투명 페트병 전용 수거함</string>
+
+    <string name="category_poly_bag">비닐류</string>
+    <string name="instruction_poly_bag">1. 이물질(음식물, 스티커)을 제거하고 깨끗이 닦습니다.\n2. 흩날리지 않게 봉투에 모아 배출하세요.</string>
+    <string name="disposal_poly_bag">비닐류 수거함</string>
+
+    <string name="category_paper">종이류</string>
+    <string name="instruction_paper">1. 물기에 젖지 않게 보관하세요.\n2. 테이프, 비닐 코팅, 철심을 모두 제거하세요.\n3. 묶어서 배출하세요.</string>
+    <string name="disposal_paper">종이류 수거함</string>
+
+    <string name="category_unknown">확인 불가</string>
+    <string name="instruction_unknown">분리수거 가이드라인을 확인하거나 일반 쓰레기로 처리하세요.</string>
+    <string name="disposal_unknown">종량제 봉투 (일반 쓰레기)</string>
+
+    <!--youtube 업로드 관련 문구-->
+    <string name="tip_title_plastic_bottle">페트병 활용 팁</string>
+    <string name="tip_desc_plastic_bottle">페트병을 활용하는 다양한 방법입니다. 썸네일을 클릭하면 YouTube로 이동합니다.</string>
+    <string name="tip_video1_plastic_bottle">화분 만들기</string>
+    <string name="tip_video2_plastic_bottle">조명 또는 램프 쉐이드 제작</string>
+    <string name="tip_video3_plastic_bottle">페트병 정리수납 아이디어</string>
+
+    <!-- Poly bag -->
+    <string name="tip_title_poly_bag">비닐류 활용 팁</string>
+    <string name="tip_desc_poly_bag">비닐을 활용하는 다양한 방법입니다. 썸네일을 클릭하면 YouTube로 이동합니다.</string>
+    <string name="tip_video1_poly_bag">비닐봉지 재활용 문패 만들기</string>
+    <string name="tip_video2_poly_bag">쓰레기봉투 정리 팁</string>
+    <string name="tip_video3_poly_bag">투명 선물 봉투 만들기</string>
+
+    <!-- Paper -->
+    <string name="tip_title_paper">종이 활용 팁</string>
+    <string name="tip_desc_paper">종이 재활용 팁입니다. 썸네일을 클릭하면 YouTube로 이동합니다.</string>
+    <string name="tip_video1_paper">종이 팔찌 만들기</string>
+    <string name="tip_video2_paper">쇼핑백으로 휴지곽 만들기</string>
+    <string name="tip_video3_paper">수납함 만들기</string>
+
+    <!-- Default -->
+    <string name="tip_title_default">기타 재활용 팁</string>
+    <string name="tip_desc_default">올바른 분리수거 방법을 확인하세요.</string>
+    <string name="tip_video1_default">이건 분리수거 하면 안돼요</string>
+    <string name="tip_video2_default">평생 쓰는 분리수거템</string>
+    <string name="tip_video3_default">헷갈리는 분리수거 정리법</string>
+
+
+    <!--소주 공병 버튼-->
+    <string name="soju_bottle_button">공병</string>
+    <string name="profit_report_title">공병 성과 리포트</string>
+    <string name="total_profit">%1$s원 획득!</string>
+    <string name="stamp_coupon_achieved">축하합니다! 쿠폰을 달성했어요! (%1$d/%2$d)</string>
+    <string name="stamp_remaining">다음 쿠폰까지 %1$d개 남았어요! (%2$d/%3$d)</string>
+</resources>

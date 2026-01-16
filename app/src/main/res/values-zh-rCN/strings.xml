@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrashCam</string>
+    <string name="action_settings">设置</string>
+    <string name="first_fragment_label">第一个片段</string>
+    <string name="second_fragment_label">第二个片段</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
+    <string name="lorem_ipsum">...</string> <string name="camera_permission_rationale">需要相机权限才能使用此功能。</string>
+    <string name="tip_default">环保小贴士：请使用随行杯！</string>
+    <string name="camera_info_text">请尝试用相机拍摄垃圾照片！</string>
+    <string name="statistics_button_text">统计</string>
+    <string name="alarm_settings_button_text">闹钟设置</string>
+    <string name="campaign_text">请参与垃圾分类，保护濒危动物！</string>
+    <string name="stats_title">垃圾分类统计</string>
+    <string name="top_10_title">拍摄最多的垃圾 TOP 10</string>
+    <string name="reset_button_text">重置</string>
+    <string name="image_slot_1">图片栏 1</string>
+    <string name="image_slot_2">图片栏 2</string>
+    <string name="image_slot_3">图片栏 3</string>
+    <string name="alarm_settings_title">设置垃圾分类提醒</string>
+    <string name="day_select_label">选择接收提醒的星期</string>
+    <string name="chip_mon">一</string>
+    <string name="chip_tue">二</string>
+    <string name="chip_wed">三</string>
+    <string name="chip_thu">四</string>
+    <string name="chip_fri">五</string>
+    <string name="chip_sat">六</string>
+    <string name="chip_sun">日</string>
+    <string name="time_select_label">选择提醒时间</string>
+    <string name="delete_alarm_button_text">删除已设置的闹钟</string>
+    <string name="save_alarm_button_text">保存闹钟</string>
+    <string name="alarm_set_success_message">已为 %1$s %2$s 设置闹钟！</string>
+    <string name="select_day_warning">请至少选择一个接收提醒的星期。</string>
+    <string name="alarm_deleted_message">所有已设置的闹钟已被删除。</string>
+    <string-array name="recycling_tips">
+        <item>您知道每个地区的指定垃圾袋都不同吗？</item>
+        <item>购物时请尝试使用购物袋代替塑料袋。</item>
+        <item>养成使用随行杯代替一次性杯子的习惯。</item>
+        <item>请将塑料制品清洗干净并晾干后放入透明袋中进行处理。</item>
+        <item>沾有食物的纸张或泡沫塑料属于一般垃圾。</item>
+        <item>正确的垃圾分类可以提高资源回收率。</item>
+        <item>请移除透明 PET 瓶上的标签并压扁后进行处理。</item>
+        <item>请务必移除纸制品上的胶带或订书钉。</item>
+        <item>请用报纸包裹破碎的玻璃或陶瓷制品，然后放入标准垃圾袋中。</item>
+    </string-array>
+    <string name="btnCapture">拍摄</string>
+    <string name="btnReshoot">重拍</string>
+    <string name="btnDelete">删除</string>
+    <string name="btnSave">保存</string>
+    <string name="button_details">查看详情</string>
+    <string name="error_no_analysis_data">暂无分析结果，无法查看详细信息。</string>
+    <string name="loadingTextView">处理中...</string>
+    <string name="tvDetectionResult">分析结果：</string>
+    <string name="loading_analyzing">YOLO 分析中...</string>
+    <string name="toast_photo_deleted">照片已删除。</string>
+    <string name="toast_db_saved">\'%1$s\' 信息已保存到数据库。</string>
+    <string name="toast_db_saved_auto">\'%1$s\'分析结果已自动保存到数据库。</string>
+    <string name="toast_no_result_to_save">没有可保存的分析结果。</string>
+    <string name="error_file_conversion_failed">无法转换图像文件。</string>
+    <string name="error_server_analysis">服务器分析错误：%1$s</string>
+    <string name="error_unknown_response">未知的服务器响应。</string>
+    <string name="error_server_communication">服务器通信错误：%1$d %2$s</string>
+    <string name="error_upload_failed">上传失败：%1$s</string>
+    <string name="analysis_result_title">分析结果：</string>
+    <string name="analysis_no_result_found">未检测到结果。</string>
+    <string name="back_to_home">返回主页</string>
+    <string name="chart_label_garbage_type">垃圾类型</string>
+    <string name="dialog_title_reset_stats">重置统计</string>
+    <string name="dialog_message_reset_stats">您确定要删除所有统计记录吗？</string>
+    <string name="dialog_button_delete">删除</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="toast_stats_reset">统计数据已重置。</string>
+
+    <!-- 자세히보기 -->
+    <string name="btnRecycleTip">如何使用</string>
+    <string name="category_plastic_bottle">透明塑料瓶</string>
+    <string name="instruction_plastic_bottle">1. 倒空内容物并清洗干净。\n2. 去掉标签和瓶盖。\n3. 压扁后投放。</string>
+    <string name="disposal_plastic_bottle">透明塑料瓶专用回收箱</string>
+
+    <string name="category_poly_bag">塑料袋</string>
+    <string name="instruction_poly_bag">1. 去除异物（食物、贴纸）并擦干净。\n2. 收集在袋中防止飞散。</string>
+    <string name="disposal_poly_bag">塑料袋回收箱</string>
+
+    <string name="category_paper">纸类</string>
+    <string name="instruction_paper">1. 保持干燥。\n2. 去除胶带、塑料涂层和订书钉。\n3. 捆好后投放。</string>
+    <string name="disposal_paper">纸类回收箱</string>
+
+    <string name="category_unknown">未知</string>
+    <string name="instruction_unknown">请查看回收指南或作为一般垃圾处理。</string>
+    <string name="disposal_unknown">一般垃圾袋</string>
+
+    <!-- 유트브 -->
+    <string name="tip_title_plastic_bottle">塑料瓶回收小贴士</string>
+    <string name="tip_desc_plastic_bottle">各种再利用塑料瓶的方法。点击缩略图前往YouTube。</string>
+    <string name="tip_video1_plastic_bottle">制作花盆</string>
+    <string name="tip_video2_plastic_bottle">制作灯罩</string>
+    <string name="tip_video3_plastic_bottle">塑料瓶收纳创意</string>
+
+    <string name="tip_title_poly_bag">塑料袋回收小贴士</string>
+    <string name="tip_desc_poly_bag">再利用塑料袋的创意方法。点击缩略图前往YouTube。</string>
+    <string name="tip_video1_poly_bag">再利用塑料袋做名牌</string>
+    <string name="tip_video2_poly_bag">垃圾袋整理技巧</string>
+    <string name="tip_video3_poly_bag">制作透明礼品袋</string>
+
+    <string name="tip_title_paper">纸类回收小贴士</string>
+    <string name="tip_desc_paper">纸张再利用的小创意。</string>
+    <string name="tip_video1_paper">纸手镯制作</string>
+    <string name="tip_video2_paper">用购物袋制作纸巾盒</string>
+    <string name="tip_video3_paper">纸质收纳盒</string>
+
+    <string name="tip_title_default">其他回收小贴士</string>
+    <string name="tip_desc_default">请查看正确的分类回收方法。</string>
+    <string name="tip_video1_default">这些不能回收！</string>
+    <string name="tip_video2_default">永久使用的分类神器</string>
+    <string name="tip_video3_default">混淆垃圾分类整理</string>
+
+    <!-- 수정된 공병 버튼 -->
+    <string name="soju_bottle_button">工程师</string>
+    <string name="profit_report_title">瓶子收益报告</string>
+    <string name="total_profit">获得 %1$s 元!</string>
+    <string name="stamp_coupon_achieved">恭喜! 已达成优惠券! (%1$d/%2$d)</string>
+    <string name="stamp_remaining">距离下张优惠券还剩 %1$d 个 (%2$d/%3$d)</string>
+</resources>
