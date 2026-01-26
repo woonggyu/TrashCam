@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrashCam</string>
+    <string name="action_settings">設定</string>
+    <string name="first_fragment_label">最初のフラグメント</string>
+    <string name="second_fragment_label">2番目のフラグメント</string>
+    <string name="next">次へ</string>
+    <string name="previous">前へ</string>
+    <string name="lorem_ipsum">...</string> <string name="camera_permission_rationale">この機能を使用するにはカメラの権限が必要です。</string>
+    <string name="tip_default">環境保護のヒント：タンブラーを使いましょう！</string>
+    <string name="camera_info_text">カメラを使ってゴミの写真を撮ってみましょう！</string>
+    <string name="statistics_button_text">統計</string>
+    <string name="alarm_settings_button_text">アラーム設定</string>
+    <string name="campaign_text">ゴミの分別に参加し、絶滅危惧種を守りましょう！</string>
+    <string name="stats_title">ゴミ分別統計</string>
+    <string name="top_10_title">最も多く撮影されたゴミ TOP 10</string>
+    <string name="reset_button_text">リセット</string>
+    <string name="image_slot_1">画像スロット 1</string>
+    <string name="image_slot_2">画像スロット 2</string>
+    <string name="image_slot_3">画像スロット 3</string>
+    <string name="alarm_settings_title">ゴミ分別アラーム設定</string>
+    <string name="day_select_label">通知を受け取る曜日を選択</string>
+    <string name="chip_mon">月</string>
+    <string name="chip_tue">火</string>
+    <string name="chip_wed">水</string>
+    <string name="chip_thu">木</string>
+    <string name="chip_fri">金</string>
+    <string name="chip_sat">土</string>
+    <string name="chip_sun">日</string>
+    <string name="time_select_label">通知時間を選択</string>
+    <string name="delete_alarm_button_text">設定済みアラームを削除</string>
+    <string name="save_alarm_button_text">アラームを保存</string>
+    <string name="alarm_set_success_message">%1$s %2$sにアラームを設定しました！</string>
+    <string name="select_day_warning">通知を受け取る曜日を1つ以上選択してください。</string>
+    <string name="alarm_deleted_message">設定されているすべてのアラームが削除されました。</string>
+    <string-array name="recycling_tips">
+        <item>指定ゴミ袋が地域によって異なることをご存知ですか？</item>
+        <item>買い物の際は、ビニール袋の代わりにエコバッグを使ってみましょう。</item>
+        <item>使い捨てカップの代わりにタンブラーを使う習慣をつけましょう。</item>
+        <item>ビニール類はきれいに洗って乾かしてから透明な袋に入れて出してください。</item>
+        <item>食べ物が付着した紙や発泡スチロールは一般ゴミです。</item>
+        <item>正しい分別は資源のリサイクル率を高めます。</item>
+        <item>透明なペットボトルはラベルを剥がして潰してから出してください。</item>
+        <item>紙類に付いているテープやホッチキスの芯は必ず取り除いてください。</item>
+        <item>割れたガラスや陶磁器は新聞紙に包んで指定ゴミ袋に入れて捨ててください。</item>
+    </string-array>
+    <string name="btnCapture">撮影</string>
+    <string name="btnReshoot">再撮影</string>
+    <string name="btnDelete">削除</string>
+    <string name="btnSave">保存</string>
+    <string name="button_details">查看详情</string>
+    <string name="error_no_analysis_data">詳細を確認できる分析結果がありません。</string>
+    <string name="loadingTextView">処理中...</string>
+    <string name="tvDetectionResult">分析結果:</string>
+    <string name="loading_analyzing">YOLO 分析中...</string>
+    <string name="toast_photo_deleted">写真を削除しました。</string>
+    <string name="toast_db_saved">\'%1$s\' 情報がDBに保存されました。</string>
+    <string name="toast_db_saved_auto">\'%1$s\'分析結果が自動的にDBに保存されました。</string>
+    <string name="toast_no_result_to_save">保存する分析結果がありません。</string>
+    <string name="error_file_conversion_failed">画像ファイルを変換できません。</string>
+    <string name="error_server_analysis">サーバー分析エラー：%1$s</string>
+    <string name="error_unknown_response">不明なサーバー応答です。</string>
+    <string name="error_server_communication">サーバー通信エラー：%1$d %2$s</string>
+    <string name="error_upload_failed">アップロード失敗：%1$s</string>
+    <string name="analysis_result_title">分析結果:</string>
+    <string name="analysis_no_result_found">検出された結果がありません。</string>
+    <string name="back_to_home">ホームに戻る</string>
+    <string name="chart_label_garbage_type">ゴミの種類</string>
+    <string name="dialog_title_reset_stats">統計をリセット</string>
+    <string name="dialog_message_reset_stats">本当にすべての統計記録を削除しますか？</string>
+    <string name="dialog_button_delete">削除</string>
+    <string name="dialog_button_cancel">キャンセル</string>
+    <string name="toast_stats_reset">統計がリセットされました。</string>
+
+    <!-- 자세히보기-->
+    <string name="btnRecycleTip">活用方法</string>
+    <string name="category_plastic_bottle">透明ペットボトル</string>
+    <string name="instruction_plastic_bottle">1. 中身を空にしてきれいに洗ってください。\n2. ラベルとキャップを外してください。\n3. つぶして出してください。</string>
+    <string name="disposal_plastic_bottle">透明ペットボトル専用回収箱</string>
+
+    <string name="category_poly_bag">ビニール類</string>
+    <string name="instruction_poly_bag">1. 異物（食べ物、シール）を取り除き、きれいに拭いてください。\n2. 袋にまとめて飛ばないようにしてください。</string>
+    <string name="disposal_poly_bag">ビニール類回収箱</string>
+
+    <string name="category_paper">紙類</string>
+    <string name="instruction_paper">1. 湿らせないように保管してください。\n2. テープ、ビニールコーティング、ホチキス針を取り除いてください。\n3. まとめて出してください。</string>
+    <string name="disposal_paper">紙類回収箱</string>
+
+    <string name="category_unknown">不明</string>
+    <string name="instruction_unknown">分別ガイドラインを確認するか、一般ごみとして処理してください。</string>
+    <string name="disposal_unknown">一般ごみ袋</string>
+
+    <!-- 유튜브 관련 -->
+    <string name="tip_title_plastic_bottle">ペットボトル再利用のヒント</string>
+    <string name="tip_desc_plastic_bottle">ペットボトルを再利用するさまざまな方法です。サムネイルをクリックするとYouTubeが開きます。</string>
+    <string name="tip_video1_plastic_bottle">鉢植えを作る</string>
+    <string name="tip_video2_plastic_bottle">ランプシェードを作る</string>
+    <string name="tip_video3_plastic_bottle">ペットボトル収納アイデア</string>
+
+    <string name="tip_title_poly_bag">ビニール袋再利用のヒント</string>
+    <string name="tip_desc_poly_bag">ビニール袋を活用するいろいろな方法です。サムネイルをクリックするとYouTubeが開きます。</string>
+    <string name="tip_video1_poly_bag">ネームプレート作り</string>
+    <string name="tip_video2_poly_bag">ゴミ袋整理術</string>
+    <string name="tip_video3_poly_bag">透明ギフトバッグの作り方</string>
+
+    <string name="tip_title_paper">紙再利用のヒント</string>
+    <string name="tip_desc_paper">紙を再利用するアイデアを紹介します。</string>
+    <string name="tip_video1_paper">紙のブレスレット作り</string>
+    <string name="tip_video2_paper">ショッピングバッグでティッシュケース作り</string>
+    <string name="tip_video3_paper">紙の収納ボックス</string>
+
+    <string name="tip_title_default">その他のリサイクルヒント</string>
+    <string name="tip_desc_default">正しい分別方法を確認してください。</string>
+    <string name="tip_video1_default">リサイクルしてはいけないもの</string>
+    <string name="tip_video2_default">一生使える分別グッズ</string>
+    <string name="tip_video3_default">混乱しやすい分別を整理</string>
+
+    <!-- 수정된 공병 버튼 -->
+    <string name="soju_bottle_button">空き瓶</string>
+    <string name="profit_report_title">空き瓶成果レポート</string>
+    <string name="total_profit">%1$s円獲得!</string>
+    <string name="stamp_coupon_achieved">おめでとう！クーポン達成！ (%1$d/%2$d)</string>
+    <string name="stamp_remaining">次のクーポンまであと %1$d 個 (%2$d/%3$d)</string>
+</resources>
