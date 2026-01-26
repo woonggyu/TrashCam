@@ -1,0 +1,8 @@
+flask==3.0.0
+ultralytics==8.1.0
+opencv-python
+pillow
+numpy
+torch
+torchvision
+requests
